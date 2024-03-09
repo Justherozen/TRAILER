@@ -1,3 +1,2 @@
 # TRAILER
-[CVPR 2024] Targeted Representation Alignment for Open-World Semi-Supervised Learning
-The Pytorch implementation will be uploaded soon.
+This is the PyTorch implementation of our CVPR 2024 paper TRAILER. The Pytorch implementation will be uploaded soon.
