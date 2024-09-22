@@ -53,11 +53,15 @@ The unsupervised pretrained SimCLR backbone are adopted following previous proto
 
 - To train on CIFAR-10 with 50% known classes and 50% novel classes, with 50% of the known class samples labeled data, run
 
-	CUDA_VISIBLE_DEVICES=0 python train_trailer.py  --dataset cifar10 --lbl-percent 50 --novel-percent 50 --no-progress  --data-root 'YOUR_DATA_ROOT'
+```
+CUDA_VISIBLE_DEVICES=0 python train_trailer.py  --dataset cifar10 --lbl-percent 50 --novel-percent 50 --no-progress  --data-root 'YOUR_DATA_ROOT'
+```
 
 To train on CIFAR-100 with 50% known classes and 50% novel classes, with 50% of the known class samples labeled data, run
 
-	CUDA_VISIBLE_DEVICES=0 python train_trailer.py  --dataset cifar100 --lbl-percent 50 --novel-percent 50 --no-progress  --data-root 'YOUR_DATA_ROOT'
+```
+CUDA_VISIBLE_DEVICES=0 python train_trailer.py  --dataset cifar100 --lbl-percent 50 --novel-percent 50 --no-progress  --data-root 'YOUR_DATA_ROOT'
+```
 
 ##### Future plans
 
